@@ -1,5 +1,5 @@
 import profileImage from "@/assets/baa8ac534c07531a3cf29306186b4eb6dd6cf164.png";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -23,13 +23,23 @@ export function HeroSection() {
             Quantitative researcher and analyst studying Applied Mathematics & Statistics
             at Stony Brook University, building data pipelines and financial models that drive decisions.
           </p>
-          <a
-            href="mailto:jihee.lee423@gmail.com"
-            className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#102A43] text-white text-base rounded-full hover:bg-[#1a3a57] transition-colors"
-          >
-            Get in touch
-            <ArrowUpRight size={18} />
-          </a>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="mailto:jihee.lee423@gmail.com"
+              className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#102A43] text-white text-base rounded-full hover:bg-[#1a3a57] transition-colors"
+            >
+              Get in touch
+              <ArrowUpRight size={18} />
+            </a>
+            <a
+              href="/Jihee_Lee_Resume.pdf"
+              download="Jihee_Lee_Resume.pdf"
+              className="inline-flex items-center gap-2 px-7 py-3.5 border border-gray-300 text-gray-700 text-base rounded-full hover:border-gray-500 transition-colors"
+            >
+              Resume
+              <Download size={18} />
+            </a>
+          </div>
         </div>
       </div>
 
