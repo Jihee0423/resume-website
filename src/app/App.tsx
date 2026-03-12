@@ -6,6 +6,7 @@ import { ExperienceSection } from "./components/experience-section";
 import { SkillsSection } from "./components/skills-section";
 import { EducationSection } from "./components/education-section";
 import { Footer } from "./components/footer";
+import { ResumeDownloadSection } from "./components/resume-download-section";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <ExperienceSection />
       <SkillsSection />
       <EducationSection />
+      <ResumeDownloadSection />
       <div id="contact"><Footer /></div>
     </div>
   );
