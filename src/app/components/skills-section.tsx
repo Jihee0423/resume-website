@@ -5,20 +5,20 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    category: "Programming & Data",
-    skills: ["Python", "R", "SQL", "Julia", "MATLAB"]
+    category: "Programming",
+    skills: ["Python", "SQL"]
   },
   {
-    category: "Analytics & ML",
-    skills: ["Scikit-learn", "TensorFlow", "XGBoost", "Time Series", "A/B Testing"]
+    category: "Data Analysis",
+    skills: ["Statistical Modeling", "Time-Series Analysis", "Optimization", "Simulation"]
   },
   {
-    category: "Visualization",
-    skills: ["Tableau", "Power BI", "D3.js", "Matplotlib", "Plotly"]
+    category: "Tools",
+    skills: ["Excel", "Microsoft Office"]
   },
   {
-    category: "Statistical Methods",
-    skills: ["Regression", "Hypothesis Testing", "Bayesian Inference", "Forecasting"]
+    category: "Languages",
+    skills: ["Korean (Native)", "English (Fluent)"]
   }
 ];
 

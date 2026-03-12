@@ -10,28 +10,22 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Predictive Revenue Model",
-    description: "Forecasted quarterly revenue with 94% accuracy using time series analysis and Prophet",
+    title: "Generative AI for Portfolio Optimization",
+    description: "Research at Stony Brook University (AISI): built data pipelines for financial time-series analysis, conducted risk-adjusted performance comparisons, and explored optimization-based approaches to analyze portfolio behavior.",
+    year: "2025",
+    tags: ["Python", "Optimization", "Time-Series Analysis", "Simulation"]
+  },
+  {
+    title: "Disaster Resilience Data Analysis",
+    description: "Supported data organization and analysis for environmental resilience projects at the Asia Pacific Disaster Resilience Center, contributing to data-driven content and digital information platforms.",
+    year: "2025",
+    tags: ["Data Analysis", "Research", "Environmental Science"]
+  },
+  {
+    title: "SDG 13 Climate Action Policy",
+    description: "Led a multinational student team at WFUNA to develop policy proposals on Climate Action (SDG 13), co-presenting at the United Nations Headquarters in New York.",
     year: "2023",
-    tags: ["Python", "Machine Learning", "Forecasting"]
-  },
-  {
-    title: "Portfolio Optimization Engine",
-    description: "Improved risk-adjusted returns by 22% using Modern Portfolio Theory and Monte Carlo simulations",
-    year: "2023",
-    tags: ["Quantitative Finance", "Python", "Optimization"]
-  },
-  {
-    title: "Real-time Analytics Dashboard",
-    description: "Automated executive reporting, saving 15+ hours weekly with interactive data visualization",
-    year: "2022",
-    tags: ["Data Visualization", "React", "D3.js"]
-  },
-  {
-    title: "Customer Churn Analysis",
-    description: "Reduced churn by 18% through cohort segmentation and targeted interventions",
-    year: "2022",
-    tags: ["A/B Testing", "R", "Statistical Analysis"]
+    tags: ["Policy Development", "Research", "United Nations"]
   }
 ];
 
