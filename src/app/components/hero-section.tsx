@@ -32,7 +32,7 @@ export function HeroSection() {
 
           {/* CTA Below Headline */}
           <a
-            href="mailto:Jihee.lee@stonybrook.edu"
+            href="mailto:jihee.lee423@gmail.com"
             className="inline-flex items-center gap-2 px-8 py-4 bg-[#102A43] text-white text-base rounded-full hover:bg-[#1a3a57] transition-colors"
           >
             Get in touch

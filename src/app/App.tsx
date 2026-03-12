@@ -12,12 +12,12 @@ export default function App() {
     <div className="min-h-screen bg-white">
       <ResumeHeader />
       <HeroSection />
-      <AboutSection />
-      <SelectedProjects />
+      <div id="about"><AboutSection /></div>
+      <div id="projects"><SelectedProjects /></div>
       <ExperienceSection />
       <SkillsSection />
       <EducationSection />
-      <Footer />
+      <div id="contact"><Footer /></div>
     </div>
   );
 }
