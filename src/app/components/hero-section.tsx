@@ -16,7 +16,7 @@ export function HeroSection() {
         <div className="px-6 py-12">
           <h1 className="text-4xl leading-[1.15] mb-6 font-light">
             <span className="text-gray-900">I apply </span>
-            <span className="text-[#2A7F7F] font-medium">mathematics & data</span>
+            <span className="text-[#2A7F7F] font-bold">Mathematics & Data</span>
             <span className="text-gray-900"> to turn complexity into actionable insight</span>
           </h1>
           <p className="text-base text-gray-600 leading-relaxed mb-8">
@@ -59,7 +59,7 @@ export function HeroSection() {
           <div className="max-w-3xl">
             <h1 className="text-6xl lg:text-7xl leading-[1.1] mb-8 font-light">
               <span className="text-gray-900">I apply </span>
-              <span className="text-[#2A7F7F] font-medium">mathematics & data</span>
+              <span className="text-[#2A7F7F] font-bold">Mathematics & Data</span>
               <span className="text-gray-900"> to turn complexity into actionable insight</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl leading-relaxed mb-10">
