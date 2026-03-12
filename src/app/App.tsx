@@ -15,7 +15,7 @@ export default function App() {
       <HeroSection />
       <div id="about"><AboutSection /></div>
       <div id="projects"><SelectedProjects /></div>
-      <ExperienceSection />
+      <div id="experience"><ExperienceSection /></div>
       <SkillsSection />
       <EducationSection />
       <ResumeDownloadSection />

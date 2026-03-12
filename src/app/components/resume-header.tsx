@@ -10,14 +10,14 @@ export function ResumeHeader() {
             PORTFOLIO
           </div>
           <div className="flex items-center gap-8">
-            <a href="#projects" onClick={(e) => { e.preventDefault(); document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' }); }} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
+            <a href="#experience" onClick={(e) => { e.preventDefault(); document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' }); }} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
               Work
             </a>
             <a href="#about" onClick={(e) => { e.preventDefault(); document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' }); }} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
               About
             </a>
-            <a href="#contact" onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' }); }} className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
-              Contact
+            <a href="/Jihee_Lee_Resume.pdf" download="Jihee_Lee_Resume.pdf" className="text-sm text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
+              Resume
             </a>
           </div>
         </nav>
