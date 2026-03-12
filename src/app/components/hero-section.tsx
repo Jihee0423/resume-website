@@ -6,11 +6,11 @@ export function HeroSection() {
     <section className="bg-white">
       {/* Mobile: stacked layout */}
       <div className="md:hidden">
-        <div className="w-full h-[50vh]">
+        <div className="w-full h-[65vh]">
           <img
             src={profileImage}
             alt="Jihee Lee"
-            className="w-full h-full object-cover object-top"
+            className="w-full h-full object-cover object-[center_8%]"
           />
         </div>
         <div className="px-6 py-12">
@@ -40,7 +40,7 @@ export function HeroSection() {
             <img
               src={profileImage}
               alt="Jihee Lee"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[center_5%]"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-transparent to-transparent w-32"></div>
           </div>
